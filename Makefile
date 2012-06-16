@@ -11,10 +11,10 @@
 CC            = gcc
 CXX           = clang++
 CFLAGS        = -Wall -g
-CXXFLAGS      = -Wall -g
+CXXFLAGS      = -Wall -g -O3
 INCPATH       = 
-LINK          = g++
-LFLAGS        = 
+LINK          = clang++
+LFLAGS        = -O3
 LIBS          = $(SUBLIBS) 
 AR            = ar cq
 RANLIB        = ranlib -s
